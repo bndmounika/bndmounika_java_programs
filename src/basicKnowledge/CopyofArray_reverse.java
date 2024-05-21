@@ -14,7 +14,7 @@ public class CopyofArray_reverse {
 		String rev=" ";
 		for(int i=name.length-1;i>=0;i--)
 		{
-			namecopy[i]=name[name.length-i];
+			namecopy[i]=name[(name.length-1)-i];
 			//i=2, name[2-name.lenght]
 		}
 		System.out.println(Arrays.toString(name));

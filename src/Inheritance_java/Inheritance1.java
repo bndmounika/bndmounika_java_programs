@@ -1,7 +1,7 @@
 package Inheritance_java;
 class Parent{
 	
-	static void add()
+	 void add()
 	{
 		System.out.println("Addition");
 	}
@@ -14,7 +14,8 @@ public class Inheritance1 extends Parent{
 		System.out.println("Subtraction");
 	}
 	public static void main(String[] args) {
-		add();
+		Inheritance1 p = new Inheritance1();
+		p.add();
 		sub();
 		
 		

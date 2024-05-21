@@ -11,7 +11,7 @@ System.out.println(Math.subtractExact(45, 5));
 System.out.println(Math.multiplyExact(50, 2));
 System.out.println(Math.sqrt(100));
 System.out.println(Math.max(99, 28));
-System.out.println(Math.min(99, 0));
+System.out.println(Math.min(99, 789));
 for(int i=0;i<100;i++)
 {
 	System.out.println(Math.random());
